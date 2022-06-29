@@ -1,0 +1,21 @@
+.navs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items>li{
+    padding: 10px;
+}
+
+.react-logo{
+    width: 80px;
+}
