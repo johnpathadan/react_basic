@@ -1,6 +1,6 @@
 function Header(){
     return (
-        <header>
+        <header className="header">
                 <nav className= "navs">
                 <img src="./react.png" alt="react logo" className = 'react-logo' />
                 <ul className = "nav-items">
@@ -15,7 +15,7 @@ function Header(){
 
 function MainContent(){
     return (
-        <div>
+        <div className='main-content'>
             <h1>Reasons why I am excited to learn react</h1>
             <ol>
                 <li>Mst promising component of javascript</li>
@@ -29,8 +29,8 @@ function MainContent(){
 function Footer(){
     return (
         
-            <footer>
-                &amp; Pathadan developement. All rights reserved
+            <footer className="footer">
+                &amp; John Doe developement. All rights reserved
             </footer>
         
     );
